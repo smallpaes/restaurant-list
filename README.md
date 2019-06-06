@@ -7,11 +7,11 @@ A web application built with Node.js and Express to display a list of restaurant
 
 
 ## Features
-| Functions              | Detail                                              | URL                         |
-| ---------------------- | --------------------------------------------------- | --------------------------- |
-| View all restaurants   | Name, Image, Category, Rating                       | /                           |
-| View restaurant detail | Address, Phone number, Category, Description, Image | /restaurants/:restaurant_id |
-| Search restaurants     | Find matching name                                  | /search                     |
+| Functions              | Detail                                           | URL                         |
+| ---------------------- | ------------------------------------------------ | --------------------------- |
+| View all restaurants   | Click on logo to find name, image, category, rating of all restaurant | /                           |
+| View restaurant detail | Click on any restaurant card to view address, phone number, category, description, image | /restaurants/:restaurant_id |
+| Search restaurants     | Input name in search bar to find matching restaurants | /search                     |
 
 ## Installation
 The following instructions will get you a copy of the project and all the setting needed to run it on your local machine.
