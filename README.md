@@ -3,7 +3,7 @@
 A web application built with Node.js and Express to display a list of restaurants with detail and offer the searching function to help readily locate the ideal restaurant.
 
 ## Project First Look
-![Application Screen Shot in GIF](screen-shot.gif)
+![Application Screen Shot in GIF](https://media.giphy.com/media/SUzpJlbvUYsNojGj4u/giphy.gif)
 
 
 ## Features
