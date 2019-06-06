@@ -31,8 +31,11 @@ app.get('/restaurants/:restaurant_id', (req, res) => {
 })
 
 app.get('/search', (req, res) => {
+  // Escaping special character
+  function replacer(match) { return `\\${match}` }
+  const updatedInput = req.query.keyword.replace(/\W/g, replacer)
   // Define regular expression 
-  const regex = new RegExp(req.query.keyword, 'i')
+  const regex = new RegExp(updatedInput, 'i')
   // Filter for the corresponded restaurants
   const restaurants = restaurant_list.results.filter(restaurant => restaurant.name.match(regex))
   // Render the page with results
